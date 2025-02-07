@@ -12,6 +12,35 @@ Improvements:
 Bugs fixed:
 * [Apple] Fixed a bug that caused a crash when the capture session could not add the video input.
 
+## 1.0.0 (2025-02-07)
+
+
+### Features
+
+* add basic ui elements for barcode overlay and scanner overlay, update scanWindow via MobileScanner widget ([b7d6599](https://github.com/deogratias-ngereza/mobile_scanner/commit/b7d65995635800c96c8063b5372d0bb128473b09))
+* add regionOfInterest ([596c050](https://github.com/deogratias-ngereza/mobile_scanner/commit/596c0503b26c657eb927d73a7a69ccad28b3c91e))
+* change platform os detect pattern in barcode_scanner_window.dart ([bf495be](https://github.com/deogratias-ngereza/mobile_scanner/commit/bf495be9510eb60076734a618b92d1e7dab81d4e))
+* Read inverted data matrix ([740b720](https://github.com/deogratias-ngereza/mobile_scanner/commit/740b72046face23889e1643b66db745cee408f14))
+* Read inverted data matrix ([dff1935](https://github.com/deogratias-ngereza/mobile_scanner/commit/dff1935f4fda1e70f3958bfc05f665cd1d8a39ec))
+* refactor ios and macos to darwin, migrate to vision api ([7db2758](https://github.com/deogratias-ngereza/mobile_scanner/commit/7db2758c8c8b6caeaaf8eb55e0b5d553515e6d70))
+* Update CHANGELOG.md for version 5.0.1 ([2899853](https://github.com/deogratias-ngereza/mobile_scanner/commit/289985393d1b58d42f8fadb61b1a8cd1937253e1))
+* Update extension type ([f31b03d](https://github.com/deogratias-ngereza/mobile_scanner/commit/f31b03dcfb46ff4610f9c4941fe1d266a44cf200))
+* Update pubspec.yaml for version 5.0.1 ([2a6c7d5](https://github.com/deogratias-ngereza/mobile_scanner/commit/2a6c7d569c3ff17d37e95679553605fabe77464d))
+
+
+### Bug Fixes
+
+* fix android jank ui when returnImage true. ([af70fcc](https://github.com/deogratias-ngereza/mobile_scanner/commit/af70fcc10843ee72a60991121c1c2f644067965f))
+* fix android ui jank when returnImage set to true. ([926da3d](https://github.com/deogratias-ngereza/mobile_scanner/commit/926da3d99f105670b28fa6f40fbcad27e4c4fb0a))
+* On Android the X and Y seems to be swapped. (Also the order of corners seems not correct, but that does not influence this use-case. ([e10b7b3](https://github.com/deogratias-ngereza/mobile_scanner/commit/e10b7b31b5b08e2d8e5a32544b81e16c027d51ff))
+* parameter name ([1f57cf8](https://github.com/deogratias-ngereza/mobile_scanner/commit/1f57cf82b11cdaff562150f26604b2e136a0cc45))
+* remove merge conflicts ([0b81241](https://github.com/deogratias-ngereza/mobile_scanner/commit/0b812414fd453ba90d7eed580d7b5bdf2fa9dd66))
+
+
+### Performance Improvements
+
+* update gradle and java ([c59d915](https://github.com/deogratias-ngereza/mobile_scanner/commit/c59d9151306c4554b621759c6c67fdb20a68d510))
+
 ## 7.0.0-beta.5
 
 Improvements:
